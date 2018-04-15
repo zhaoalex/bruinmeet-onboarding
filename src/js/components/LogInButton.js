@@ -10,7 +10,7 @@ type PropsType = {
   isLoggedIn: boolean
 }
 
-function LoginButton(props: PropsType): React.Element<*> {
+function LogInButton(props: PropsType): React.Element<*> {
   const getButtonText = (override?: LoginType) => {
     switch(override) {
       case "login": return "Log In";
@@ -38,4 +38,4 @@ function LoginButton(props: PropsType): React.Element<*> {
   )
 }
 
-export default LoginButton;
+export default LogInButton;
